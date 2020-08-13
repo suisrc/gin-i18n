@@ -1,0 +1,11 @@
+[ping-text]
+hash = "sha1-06c3ebb28bc328b3a0d781ce2635a6ee1c860629"
+other = "こんにちは, {{.who}}"
+
+[ping2-text]
+hash = "sha1-a9b91418516df357ccd48fcf3883b358660e1333"
+other = "わたし{{.who}}"
+
+[ping3-text]
+hash = "sha1-0b5d7ed54bee16756a7579c6718ab01e3d1b75eb"
+other = "テスト"
