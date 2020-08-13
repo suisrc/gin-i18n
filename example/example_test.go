@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	gi18n "github.com/suisrc/gin-i18n"
+	i18n "github.com/suisrc/gin-i18n"
 	"golang.org/x/text/language"
 )
 
 func TestPingRoute(t *testing.T) {
-	bundle := gi18n.NewBundle(
+	bundle := i18n.NewBundle(
 		language.Chinese,
 		"active.zh-CN.toml",
 		"active.en-US.toml",
