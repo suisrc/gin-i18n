@@ -78,5 +78,5 @@ func main() {
 ```
 
 # 鸣谢
-[gin](github.com/gin-gonic/gin)
-[i18n](github.com/nicksnyder/go-i18n)
+[gin](github.com/gin-gonic/gin)  
+[i18n](github.com/nicksnyder/go-i18n)  
