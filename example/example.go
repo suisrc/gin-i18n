@@ -9,7 +9,7 @@ import (
 func setupRouter(bundle *i18n.Bundle) *gin.Engine {
 	r := gin.Default()
 
-	r.Use(i18n.Serve(bundle))
+	//r.Use(i18n.Serve(bundle))
 	r.GET("/ping", func(c *gin.Context) {
 
 		text := i18n.FormatMessage(c,

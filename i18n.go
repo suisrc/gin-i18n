@@ -106,7 +106,7 @@ func formatInternalMessage(message *i18n.Message, args map[string]interface{}) s
 	}
 	tpl := i18n.NewMessageTemplate(message)
 	msg, err := tpl.Execute("other", args, nil)
-	if err == nil {
+	if err != nil {
 		panic(err)
 	}
 	return msg
